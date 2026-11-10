@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>VeloVolt — Магазин электротранспорта в Рязани</title>
+  <meta name="description" content="Электровелосипеды, самокаты, скутеры и питбайки в Рязани. Гарантия, качество, сервис.">
+  <link rel="icon" type="image/png" href="logo/иконка.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/hero.css">
+  <link rel="stylesheet" href="css/categories.css">
+  <link rel="stylesheet" href="css/brands.css">
+  <link rel="stylesheet" href="css/test-drive.css">
+  <link rel="stylesheet" href="css/contacts.css">
+  <link rel="stylesheet" href="css/footer.css">
+  <link rel="stylesheet" href="css/catalog.css">
+  <link rel="stylesheet" href="css/modal.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo header__logo">
+        <img src="logo/VeloVolt-logo.jpg" alt="VeloVolt" class="logo__img">
+        <span class="logo__text">VeloVolt</span>
+      </a>
+      <nav class="nav header__nav">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html#catalog" class="nav__link">Каталог</a></li>
+          <li class="nav__item"><a href="index.html#contacts" class="nav__link">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="header__actions">
+        <a href="tel:+79209609000" class="header__phone">+7 920 960 90 00</a>
+        <a href="tel:+79209609000" class="btn btn--accent header__cta">Позвонить нам</a>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <section class="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <h1 class="hero__title">Электротранспорт, который везёт тебя вперёд</h1>
+          <p class="hero__subtitle">Официальные модели, гарантия и собственный сервис. Подберём под твой маршрут и бюджет. Модели доступны в наличии и под заказ</p>
+          <div class="hero__actions">
+            <a href="#catalog" class="btn btn--accent btn--lg">Смотреть каталог</a>
+          </div>
+          <ul class="hero__stats">
+            <li class="hero__stat"><strong class="hero__stat-num">50+</strong> моделей в наличии</li>
+            <li class="hero__stat"><strong class="hero__stat-num">Гаратия</strong> и качесво</li>  
+            <li class="hero__stat"><strong class="hero__stat-num">Доступен </strong> предзаказ моделей</li>  
+          </ul>
+        </div>
+        <div class="hero__media">
+          <img src="image/Sibertron/сибертрон 1.jpeg" alt="Электровелосипед" class="hero__img" width="560" height="420">
+        </div>
+      </div>
+    </section>
+    <section class="categories section" id="catalog">
+      <div class="container">
+        <div class="categories__head">
+          <span class="categories__badge">КАТЕГОРИИ</span>
+          <div class="categories__title-row">
+            <h2 class="categories__title">Выберите транспорт</h2>
+          </div>
+        </div>
+        <ul class="categories__list">
+          <li class="categories__item">
+            <a href="catalog.html?category=scooters" class="category-card">
+              <div class="category-card__top">
+                <span class="category-card__name">Электросамокаты</span>
+                <span class="category-card__arrow">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </span>
+              </div>
+              <div class="category-card__media">
+                <img src="https://static.tildacdn.com/tild6235-3237-4064-b231-343832653937/g_04c8439fc01fb127.webp" alt="Электросамокаты" class="category-card__img" loading="lazy">
+              </div>
+              <div class="category-card__bottom">
+                <h3 class="category-card__title">Мимо пробок</h3>
+                <p class="category-card__desc">Компактно и быстро</p>
+              </div>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="catalog.html?category=bikes" class="category-card">
+              <div class="category-card__top">
+                <span class="category-card__name">Электровелосипеды</span>
+                <span class="category-card__arrow">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </span>
+              </div>
+              <div class="category-card__media">
+                <img src="https://static.tildacdn.com/tild6565-6264-4837-b033-663837356332/g_5188996ffe8d9e48.webp" alt="Электровелосипеды" class="category-card__img" loading="lazy">
+              </div>
+              <div class="category-card__bottom">
+                <h3 class="category-card__title">Город и пригород</h3>
+                <p class="category-card__desc">Привычная посадка</p>
+              </div>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="catalog.html?category=scooters-moped" class="category-card">
+              <div class="category-card__top">
+                <span class="category-card__name">Электроскутеры</span>
+                <span class="category-card__arrow">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </span>
+              </div>
+              <div class="category-card__media">
+                <img src="https://static.tildacdn.com/tild6331-3334-4862-b935-306534333439/g_785e375c302e2a70.webp" alt="Электроскутеры" class="category-card__img" loading="lazy">
+              </div>
+              <div class="category-card__bottom">
+                <h3 class="category-card__title">Комфортная посадка</h3>
+                <p class="category-card__desc">На каждый день</p>
+              </div>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="catalog.html?category=tricycles" class="category-card">
+              <div class="category-card__top">
+                <span class="category-card__name">Электротрициклы</span>
+                <span class="category-card__arrow">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </span>
+              </div>
+              <div class="category-card__media">
+                <img src="https://static.tildacdn.com/tild3862-3864-4633-a464-663636313464/g_3048bea553331e7e.webp" alt="Электротрициклы" class="category-card__img" loading="lazy">
+              </div>
+              <div class="category-card__bottom">
+                <h3 class="category-card__title">Дача и хозяйство</h3>
+                <p class="category-card__desc">Устойчивость и груз</p>
+              </div>
+            </a>
+          </li>
+          <li class="categories__item">
+            <a href="catalog.html?category=pitbikes" class="category-card">
+              <div class="category-card__top">
+                <span class="category-card__name">Электропитбайки</span>
+                <span class="category-card__arrow">
+                  <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
+                </span>
+              </div>
+              <div class="category-card__media">
+                <img src="https://static.tildacdn.com/tild6631-3836-4463-b865-636135313031/g_8c11be0e4cde374a.webp" alt="Электропитбайки" class="category-card__img" loading="lazy">
+              </div>
+              <div class="category-card__bottom">
+                <h3 class="category-card__title">Драйв и бездорожье</h3>
+                <p class="category-card__desc">Мощные форматы</p>
+              </div>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section class="brands section">
+      <div class="container">
+        <div class="section__head">
+          <h2 class="section__title">Наши бренды</h2>
+        </div>
+      </div>
+      <div class="brands__slider">
+        <div class="brands__track" id="brands-track">
+          <a href="catalog.html?brand=motiko" class="brands__item"><img src="logo/мотико.webp" alt="Motiko"></a>
+          <a href="catalog.html?brand=kugoo" class="brands__item"><img src="logo/микаолин.jpg" alt="Kugoo"></a>
+          <a href="catalog.html?brand=gt" class="brands__item"><img src="logo/аово.jpg" alt="GT"></a>
+          <a href="catalog.html?brand=elbike" class="brands__item"><img src="logo/венбокс.svg" alt="Elbike"></a>
+          <a href="catalog.html?brand=amiro" class="brands__item"><img src="logo/амиго.webp" alt="Amiro"></a>
+          <a href="catalog.html?brand=gt" class="brands__item"><img src="logo/гт.jpg" alt="GT" class="brands__img--gt"></a>
+          <a href="catalog.html?brand=huanyu" class="brands__item"><img src="logo/хуалу.png" alt="Huanyu"></a>
+          <a href="catalog.html?brand=kugoo" class="brands__item"><img src="logo/Куго.jpg" alt="Kugoo"></a>
+          <a href="catalog.html?brand=siberton" class="brands__item"><img src="logo/сибертрон.png" alt="Sibertron"></a>
+        </div>
+      </div>
+    </section>
+    <section class="test-drive section">
+      <div class="container">
+        <div class="test-drive__inner">
+          <div class="test-drive__content">
+            <span class="test-drive__badge">ПЕРЕД ПОКУПКОЙ</span>
+            <h2 class="test-drive__title">Попробуйте модель<br>вживую</h2>
+            <p class="test-drive__desc">Оставьте телефон. Менеджер поможет выбрать технику и подтвердит удобное время.</p>
+            <a href="tel:+79209609000" class="btn btn--accent test-drive__btn">Записаться</a>
+          </div>
+          <div class="test-drive__media">
+            <img src="https://static.tildacdn.com/tild6565-6264-4837-b033-663837356332/g_5188996ffe8d9e48.webp" alt="Тест-драйв" class="test-drive__img">
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contacts section" id="contacts">
+      <div class="container">
+        <h2 class="contacts__title">Приезжайте в VeloVolt</h2>
+        <div class="contacts__grid">
+          <div class="contacts__card">
+            <h3 class="contacts__card-title">Наш адрес</h3>
+            <div class="contacts__row">
+              <span class="contacts__label">АДРЕС</span>
+              <p class="contacts__value">г. Рязань, Московское шоссе, 6 ст6</p>
+            </div>
+            <div class="contacts__row">
+              <span class="contacts__label">РЕЖИМ РАБОТЫ</span>
+              <p class="contacts__value">Вт-Вс, 11:00–18:00</p>
+            </div>
+            <div class="contacts__row">
+              <span class="contacts__label">ТЕЛЕФОН</span>
+              <p class="contacts__value">+7 920 960 90 00</p>
+            </div>
+            <a href="https://yandex.ru/maps/?text=Рязань,%20Московское%20шоссе,%206%20ст6" target="_blank" rel="noopener noreferrer" class="btn btn--dark contacts__btn">Построить маршрут</a>
+          </div>
+          <div class="contacts__map">
+            <iframe 
+              src="https://yandex.ru/map-widget/v1/?text=Рязань,%20Московское%20шоссе,%206%20ст6&mode=search" 
+              width="100%" height="100%" frameborder="0" allowfullscreen="true"
+              title="Яндекс.Карта: Московское шоссе, 6 ст6"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__top">
+        <div class="footer__col footer__col--brand">
+          <a href="index.html" class="logo footer__logo">
+            <img src="logo/VeloVolt-logo.jpg" alt="VeloVolt" class="logo__img">
+            <span class="logo__text">VeloVolt</span>
+          </a>
+          
+          <div class="footer__socials">
+            <a href="https://t.me/VeloVoltrzn" target="_blank" rel="noopener noreferrer" class="footer__social" aria-label="Telegram">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M11.944 0A12 12 0 0 0 0 12a12 12 0 0 0 12 12 12 12 0 0 0 12-12A12 12 0 0 0 12 0a12 12 0 0 0-.056 0zm4.962 7.224c.1-.002.321.023.465.14a.506.506 0 0 1 .171.325c.016.093.036.306.02.472-.18 1.898-.962 6.502-1.36 8.627-.168.9-.499 1.201-.82 1.23-.696.065-1.225-.46-1.9-.902-1.056-.693-1.653-1.124-2.678-1.8-1.185-.78-.417-1.21.258-1.91.177-.184 3.247-2.977 3.307-3.23.007-.032.014-.15-.056-.212s-.174-.041-.249-.024c-.106.024-1.793 1.14-5.061 3.345-.48.33-.913.49-1.302.48-.428-.008-1.252-.241-1.865-.44-.752-.245-1.349-.374-1.297-.789.027-.216.325-.437.893-.663 3.498-1.524 5.83-2.529 6.998-3.014 3.332-1.386 4.025-1.627 4.476-1.635z"/></svg>
+            </a>
+            <a href="https://vk.ru/velovolt62" target="_blank" rel="noopener noreferrer" class="footer__social" aria-label="VK">
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M13.162 18.994c.609 0 .858-.406.851-.915-.031-1.917.714-2.949 2.059-1.604 1.488 1.488 1.796 2.519 3.603 2.519h3.2c.808 0 1.126-.26 1.126-.668 0-.863-1.421-2.386-2.625-3.504-1.686-1.565-1.765-1.602-.313-3.486 1.801-2.339 4.157-5.336 2.073-5.336h-3.981c-.772 0-.828.435-1.103 1.083-.995 2.347-2.886 5.387-3.604 4.922-.751-.485-.407-2.406-.35-5.261.015-.754.011-1.271-1.141-1.539-.814-.18-1.8-.285-2.564-.285-1.367 0-2.399.397-2.399 1.396 0 .541.435 1.08.735 1.48.523.697 1.441 1.03 1.631 1.513.272.689-.891 3.237-1.626 4.907-.718 1.626-1.306 2.097-2.074 1.048-1.122-1.532-1.947-4.854-1.947-6.813 0-2.524-1.3-2.135-2.766-2.135h-2.341c-.857 0-1.626.22-1.626 1.075 0 .618.271 1.415.546 2.078 1.453 3.6 4.64 9.24 9.727 9.24h2.159z"/></svg>
+            </a>
+            <a href="#" class="footer__social" aria-label="MAX">
+              <img src="logo/Max_logo.svg" alt="MAX" width="20" height="20" style="object-fit: contain;">
+            </a>
+          </div>
+        </div>
+        
+        <div class="footer__col">
+          <h4 class="footer__heading">Покупателям</h4>
+          <ul class="footer__list">
+            <li><a href="#" class="footer__link">Тест-драйв</a></li>
+            <li><a href="#" class="footer__link">Подобрать модель</a></li>
+            <li><a href="#" class="footer__link">Гарантия и сервис</a></li>
+            <li><a href="#" class="footer__link">Предзаказ модели</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer__col">
+          <h4 class="footer__heading">Каталог</h4>
+          <ul class="footer__list">
+            <li><a href="catalog.html?category=scooters" class="footer__link">Электросамокаты</a></li>
+            <li><a href="catalog.html?category=bikes" class="footer__link">Электровелосипеды</a></li>
+            <li><a href="catalog.html?category=scooters-moped" class="footer__link">Электроскутеры</a></li>
+            <li><a href="catalog.html?category=tricycles" class="footer__link">Электротрициклы</a></li>
+            <li><a href="catalog.html?category=pitbikes" class="footer__link">Электропитбайки</a></li>
+          </ul>
+        </div>
+        
+        <div class="footer__col">
+          <h4 class="footer__heading">Контакты</h4>
+          <ul class="footer__list">
+            <li><a href="tel:+79209609000" class="footer__link footer__link--phone">+7 920 960 90 00</a></li>
+            <li><span class="footer__text">г. Рязань, Московское шоссе, 6 ст6</span></li>
+            <li><span class="footer__text">Вт-Вс 11:00–18:00</span></li>
+          </ul>
+        </div>
+        
+        <div class="footer__col">
+          <h4 class="footer__heading">Политика конфиденциальности</h4>
+          <ul class="footer__list">
+            <li><a href="#" class="footer__link">Пользовательское соглашение</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="js/index.js"></script>
+</body>
+</html>
